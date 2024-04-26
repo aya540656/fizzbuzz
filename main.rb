@@ -5,6 +5,8 @@ def fizzbuzz(n)
     return "Fizz"
   elsif n % 5 == 0
     return "Buzz"
+  elsif n % 7 == 0
+    return "Jazz"
   else
     return n
   end
